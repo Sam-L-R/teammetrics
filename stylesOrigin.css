@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #005165; /* Set the background color of the entire page to light green */
+  color: white;
+}
+
+.container {
+  background-color: #1e2324;
+  border: 8px solid #424c4e;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#user {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-top: 8px;
+  width: 358px;
+  height: 23.5px;
+  font-size: 18px;
+  background-color: #3b3b3b;
+  color: white;
+  border:  none;
+  border-bottom: 2px solid gray;
+  border-right: 2px solid gray;
+}
+
+#user option[disabled] {
+  color: #f1efef; /* Adjust the color for the disabled option */
+}
+
+.form-row option {
+  width: 350px;
+}
+
+#dataForm {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style each form row (label + input) */
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  background-color: #3b3b3b;
+  max-width: 350px;
+  min-width: 350px;
+  width: 350px;
+  color: white;
+  box-shadow: white;
+  border:  none;
+  border-bottom: 2px solid gray;
+  border-right: 2px solid gray;
+  border-top: 2px solid rgb(32, 31, 31);
+  border-left: 2px solid rgb(32, 31, 31);
+}
+
+/* Adjust form input width */
+.form-row input {
+  width: 350px;
+  background-color: #3b3b3b;
+  color: white;
+}
+
+/* Adjust form label alignment */
+.form-row label {
+  margin-bottom: 5px;
+}
+
+/* Style the submit button */
+.submit-button {
+  background-color: #269196; /* Set the background color of the button */
+  color: white; /* Set the text color of the button */
+  padding: 10px 20px;
+  border:  none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 12px;
+  font-size: 18px;
+  
+}
+
+/* Add hover effect to the submit button */
+.submit-button:hover {
+  background-color: #4ccb5d; /* Change the background color on hover */
+}

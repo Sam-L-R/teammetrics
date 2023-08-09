@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Métricas #TeamRenan</title>
+  <link rel="stylesheet" href="stylesOrigin.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Métricas #TeamRenan</h1>
+    <form id="dataForm">
+      <div>
+        <label for="user">Usuário:</label>
+        <select id="user" name="user" required>
+          <option value="" disabled selected>Select an user</option>
+          <option value="Alexia">Alexia</option>
+          <option value="Alex">Alex</option>
+          <option value="Gisele">Gisele</option>
+          <option value="Gabriela">Gabriela</option>
+          <option value="Renan">Renan</option>
+          <option value="Samuel">Samuel</option>
+          <option value="Outro">Outro...</option>
+        </select>
+      </div>
+      <input type="text" id="depto" name="depto" hidden>
+      <label for="day" hidden>Data:</label>
+      <input type="datetime-local" id="day" name="day" hidden>
+      <label for="hora" hidden>Hora:</label>
+      <input type="date" id="hora" name="hora" hidden>
+      <div class="form-row">
+        <label for="protocol">Protocolo:</label>
+        <input type="text" id="protocol" name="protocol">
+      </div>
+      <div class="form-row">
+        <label for="ikatecker">Ikatecker:</label>
+        <input type="text" id="ikatecker" name="ikatecker">
+      </div>
+      <div class="form-row">
+        <label for="cliente">Cliente:</label>
+        <input type="text" id="cliente" name="cliente">
+      </div>
+      <div class="form-row">
+        <label for="descricao">Descrição:</label>
+        <textarea id="descricao" placeholder="Escreva aqui uma descrição." class="form-control"></textarea>
+        <!-- <input type="text" id="descricao" name="descricao" required autocomplete="descricao"> -->
+      </div>
+      <input type="submit" value="Enviar" class="submit-button">
+    </form>
+  </div>
+
+  <script src="/000webhost/"></script>
+</body>
+
+</html>
