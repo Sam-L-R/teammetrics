@@ -98,8 +98,8 @@ body {
 .submit-button:hover {
   background-color: #4ccb5d; /* Change the background color on hover */
 }
-
-@media screen and (max-width: 600px) {
+/* Trabalhando com media query para tornar o formulário responsivo (ajusta pra inglês, que não sei escrever não) */
+@media screen and (max-width: 600px) { 
   h1 {
     font-size: 1em;
   }
