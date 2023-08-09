@@ -57,8 +57,8 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #3b3b3b;
-  max-width: 350px;
-  min-width: 350px;
+  /* max-width: 350px;
+  min-width: 350px; */
   width: 350px;
   color: white;
   box-shadow: white;
@@ -97,4 +97,27 @@ body {
 /* Add hover effect to the submit button */
 .submit-button:hover {
   background-color: #4ccb5d; /* Change the background color on hover */
+}
+/* Trabalhando com media query para tornar o formulário responsivo (ajusta pra inglês, que não sei escrever não) */
+@media screen and (max-width: 600px) { 
+  h1 {
+    font-size: 1em;
+  }
+  .container {
+    width: 250px;
+  }
+  .form-row {
+    width: 200px;
+  }
+  .form-row input {
+    width: 200px;
+  }
+  .form-control {
+    width: 200px;
+    height: 70px;
+  }
+  #user {
+    width: 208px;
+    justify-content: center;
+  }
 }
