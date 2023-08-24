@@ -54,7 +54,6 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
-  
 }
 
 .form-control {
@@ -71,6 +70,7 @@ body {
   border-right: 2px solid gray;
   border-top: 2px solid rgb(32, 31, 31);
   border-left: 2px solid rgb(32, 31, 31);
+  font-family: Arial, sans-serif;
 }
 
 /* Adjust form input width */
