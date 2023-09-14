@@ -17,7 +17,7 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Alinha verticalmente ao centro */
+  justify-content: center; /* Aligns vertically to center */
   align-items: center;
 }
 
@@ -93,7 +93,7 @@ body {
   margin-top: 8px; */
   /* padding: 5px 175px; */
   border-radius: 5px;
-  text-align: center; /* Alinha o texto horizontalmente ao centro */
+  text-align: center; 
 }
 
 /* Style the submit button */
